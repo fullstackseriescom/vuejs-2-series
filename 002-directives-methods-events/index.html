@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js 2 #2</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="app">
+  <input type="text" placeholder='New task' v-model='newTask' @keyup.enter='addNewTask'>
+  <p v-show='!tasks.length'>No tasks!</p>
+  <ul id="list-tasks">
+    <li v-for="task in tasks">
+      <input type="checkbox" v-model='task.done'> 
+      <span v-bind:class="{'task-done' : task.done}">{{ task.title }}</span>
+      <button v-on:click='removeTask(task)'>x</button>
+    </li>
+  </ul>
+</div>
+  <script src='https://unpkg.com/vue'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

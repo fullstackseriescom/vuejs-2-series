@@ -1,2 +1,43 @@
-# vuejs-2-series
-Code of Vue.js 2 series from Groloop
+# Vue.js 2 Series
+
+This repo contains the code from the Vue.js 2 series from [Groloop](https://www.groloop.com/post_series/vue-js-2-frontend-javascript-framework/).
+
+This series is in **Spanish**.
+
+List of folders with the blogpost and the live example:
+------
+* 001-install-introduction:
+  * https://www.groloop.com/vue-js-2-1-instalacion-e-introduccion/
+  * http://codepen.io/vreaxe/pen/QMELZO
+
+* 002-directives-methods-events:
+  * https://www.groloop.com/vue-js-2-2-lista-tareas-v-if-v-show-v-for-v-model-metodos-mas/
+  * https://codepen.io/vreaxe/pen/GvjRgq
+
+* 003-computed-properties:
+  * https://www.groloop.com/vue-js-2-3-computed-properties/
+  * https://codepen.io/vreaxe/pen/EvNvdy
+
+* 004-components:
+  * https://www.groloop.com/vue-js-2-4-componentes/
+  * https://codepen.io/vreaxe/pen/YxpQxP
+
+* 005-lifecycle:
+  * https://www.groloop.com/vue-js-2-5-ciclo-de-vida/
+  * https://codepen.io/vreaxe/pen/MvJzbv
+
+* 006-custom-directives:
+  * https://www.groloop.com/vue-js-2-6-custom-directives/
+  * https://codepen.io/vreaxe/pen/vJgomX
+
+* 007-axios-and-filters:
+  * https://www.groloop.com/vue-js-2-7-consumir-una-api-la-libreria-axios-crear-filtros-personalizados/
+  * https://codepen.io/vreaxe/pen/zdZWLj
+
+* 008-vue-router-and-vuetify-js:
+  * https://www.groloop.com/vue-js-2-8-crear-rutas-vue-router-aplicar-una-transicion-al-cambiar-ruta/
+  * https://codepen.io/vreaxe/pen/oeWwOJ
+
+* 009-single-file-components-todo-list:
+  * https://www.groloop.com/vue-js-2-9-vue-cli-componentes-solo-archivo/
+  * https://www.webpackbin.com/bins/-KrC0rflc73F-Qn9MaFl

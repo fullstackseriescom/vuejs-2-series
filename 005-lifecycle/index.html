@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js 2 #5 Lifecycle</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="app">
+  <tasks></tasks>
+</div>
+
+<template id='tasks-template'>
+  <div>
+    <input type="text" placeholder='New task' v-model='newTask' @keyup.enter='addNewTask'>
+    <p v-show='!tasks.length'>No tasks!</p>
+    <task-list :tasks='tasks'></task-list>
+  </div>
+</template>
+
+<template id='task-list-template'>
+  <ul id="list-tasks">
+      <task-item v-for="(task, index) in tasks" :task='task' :key="index" @click-remove-task='removeTask'></task-item>
+  </ul>
+</template>
+
+<template id='task-item-template'>
+  <li>
+    <input type="checkbox" v-model='task.done'> 
+    <span v-bind:class="{'task-done' : task.done}">{{ task.title }}</span>
+    <button v-on:click='onClickRemove(task)'>x</button>
+  </li>
+</template>
+  <script src='https://unpkg.com/vue'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

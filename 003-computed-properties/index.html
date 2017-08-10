@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js 2 #3 Computed Properties</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://unpkg.com/vue-nav-tabs/themes/vue-tabs.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="app">
+  <input type="text" placeholder='New task' v-model='newTask' @keyup.enter='addNewTask'>
+  <vue-tabs>
+    <v-tab title="Undone tasks">
+      <p v-show='!undoneTasks.length'>No undone tasks!</p>
+      <ul id="list-undone-tasks">
+        <li v-for="task in undoneTasks">
+          <input type="checkbox" v-model='task.done'> 
+          <span v-bind:class="{'task-done' : task.done}">{{ task.title }}</span>
+          <button v-on:click='removeTask(task)'>x</button>
+        </li>
+      </ul>
+    </v-tab>
+    
+    <v-tab title="Done tasks">
+      <p v-show='!doneTasks.length'>No done tasks!</p>
+      <ul id="list-done-tasks">
+        <li v-for="task in doneTasks">
+          <input type="checkbox" v-model='task.done'> 
+          <span v-bind:class="{'task-done' : task.done}">{{ task.title }}</span>
+          <button v-on:click='removeTask(task)'>x</button>
+        </li>
+      </ul>
+    </v-tab>
+  </vue-tabs>
+</div>
+  <script src='https://unpkg.com/vue'></script>
+<script src='https://unpkg.com/vue-nav-tabs/dist/vue-tabs.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

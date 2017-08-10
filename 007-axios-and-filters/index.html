@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js 2 #7 Axios and Filters</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div id="app" class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <input id="input-search" type="text" class="form-control" v-model="textSearch" placeholder='Search...'>
+      <div id="list-countries" v-if="countriesFilter && countriesFilter.length">
+        <div class="panel panel-default" v-for="country of countriesFilter">
+          <div class="panel-heading">
+            <img v-bind:src="country.flag" alt="" width="30px">
+            <span>{{country.name}}</span>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-6">Capital: <strong>{{country.capital}}</strong></div>
+              <div class="col-md-6">Region: <strong>{{country.region}}</strong></div>
+            </div> 
+            <div class="row">
+              <div class="col-md-6">Currency: <strong>{{country.currencies[0].name}} ({{country.currencies[0].symbol}})</strong></div>
+              <div class="col-md-6">Population: <strong >{{country.population | format-thousands}}</strong></div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="text-center" v-else>
+        No results!
+      </div>
+    </div>
+  </div>  
+</div>
+  <script src='https://unpkg.com/vue'></script>
+<script src='https://unpkg.com/axios/dist/axios.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/scrollup/2.4.1/jquery.scrollUp.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

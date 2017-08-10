@@ -1,0 +1,6 @@
+ .task-done {
+   text-decoration:line-through;
+}
+input {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js 2 #8 vue-router and Vuetify.js</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'>
+<link rel='stylesheet prefetch' href='https://unpkg.com/vuetify/dist/vuetify.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="app">
+  <v-toolbar>
+    <v-toolbar-title>Groloop</v-toolbar-title>
+    <v-spacer></v-spacer>
+    <v-toolbar-items>
+      <v-btn flat href="#/">Home</v-btn>
+      <v-btn flat href='#/about-us'>About us</v-btn>
+      <v-btn flat href='#/contact'>Contact</v-btn>
+      <v-btn flat href='#/test'>Test</v-btn>
+    </v-toolbar-items>
+  </v-toolbar>
+  <transition name="fade">
+    <router-view></router-view>
+  </transition>
+</div>
+  <script src='https://unpkg.com/vue'></script>
+<script src='https://unpkg.com/vue-router/dist/vue-router.js'></script>
+<script src='https://unpkg.com/vuetify/dist/vuetify.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
