@@ -41,3 +41,6 @@ List of folders with the blogpost and the live example:
 * 009-single-file-components-todo-list:
   * https://www.groloop.com/vue-js-2-9-vue-cli-componentes-solo-archivo/
   * https://www.webpackbin.com/bins/-KrC0rflc73F-Qn9MaFl
+
+
+Thanks to the [CodePen](https://codepen.io/) and [WebpackBin](https://www.webpackbin.com) team for making the live examples possible with their great platforms.
