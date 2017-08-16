@@ -45,6 +45,9 @@ List of folders with the blogpost and the live example:
 * 010-011-notes-app-lumen-vuejs:
   * https://www.groloop.com/vue-js-2-10-crear-aplicacion-con-lumen-y-vue-js-parte-1/ (Primera parte)
   * https://www.groloop.com/vue-js-2-11-crear-aplicacion-lumen-vue-js-parte-2/ (Segunda parte)
+  
+* 012-nuxtjs-ssr:
+  * https://www.groloop.com/vue-js-2-12-aplicaciones-vue-js-universales-con-nuxt-js/
 
 
 Thanks to the [CodePen](https://codepen.io/) and [WebpackBin](https://www.webpackbin.com) team for making the live examples possible with their great platforms.
