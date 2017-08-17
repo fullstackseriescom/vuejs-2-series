@@ -1,35 +1,35 @@
 {
-  "publicPath": "https://groloop.github.io/vuejs-2-series/_nuxt/",
+  "publicPath": "/vuejs-2-series/_nuxt/",
   "all": [
     "1.nuxt.bundle.8317ea4f1487a3f82576.js.map",
-    "0.nuxt.bundle.ee77e106474296e83ef4.js",
-    "2.nuxt.bundle.6f6cd165f62baeb52e13.js",
+    "0.nuxt.bundle.3fa0606e73ad7d9e2b45.js",
+    "2.nuxt.bundle.344f2efc20d474c8e679.js",
     "3.nuxt.bundle.b41215765c4aa6dd0c68.js",
-    "4.nuxt.bundle.459762802be0d4764c4b.js",
+    "4.nuxt.bundle.33343379b59a46ab000a.js",
     "vendor.bundle.fcbfeea05d947a9e306f.js",
-    "nuxt.bundle.74d72d544c673a5f0158.js",
-    "manifest.bb70848dc0780ad16e2f.js",
-    "0.nuxt.bundle.ee77e106474296e83ef4.js.map",
+    "nuxt.bundle.a8c990c3e74ffb9784d5.js",
+    "manifest.1b707c40be6797da0a1d.js",
+    "0.nuxt.bundle.3fa0606e73ad7d9e2b45.js.map",
     "1.nuxt.bundle.8317ea4f1487a3f82576.js",
-    "2.nuxt.bundle.6f6cd165f62baeb52e13.js.map",
+    "2.nuxt.bundle.344f2efc20d474c8e679.js.map",
     "3.nuxt.bundle.b41215765c4aa6dd0c68.js.map",
-    "4.nuxt.bundle.459762802be0d4764c4b.js.map",
+    "4.nuxt.bundle.33343379b59a46ab000a.js.map",
     "vendor.bundle.fcbfeea05d947a9e306f.js.map",
-    "nuxt.bundle.74d72d544c673a5f0158.js.map",
-    "manifest.bb70848dc0780ad16e2f.js.map",
+    "nuxt.bundle.a8c990c3e74ffb9784d5.js.map",
+    "manifest.1b707c40be6797da0a1d.js.map",
     "index.ssr.html",
     "index.spa.html"
   ],
   "initial": [
-    "manifest.bb70848dc0780ad16e2f.js",
+    "manifest.1b707c40be6797da0a1d.js",
     "vendor.bundle.fcbfeea05d947a9e306f.js",
-    "nuxt.bundle.74d72d544c673a5f0158.js"
+    "nuxt.bundle.a8c990c3e74ffb9784d5.js"
   ],
   "async": [
-    "0.nuxt.bundle.ee77e106474296e83ef4.js",
-    "2.nuxt.bundle.6f6cd165f62baeb52e13.js",
+    "0.nuxt.bundle.3fa0606e73ad7d9e2b45.js",
+    "2.nuxt.bundle.344f2efc20d474c8e679.js",
     "3.nuxt.bundle.b41215765c4aa6dd0c68.js",
-    "4.nuxt.bundle.459762802be0d4764c4b.js",
+    "4.nuxt.bundle.33343379b59a46ab000a.js",
     "1.nuxt.bundle.8317ea4f1487a3f82576.js"
   ],
   "modules": {
