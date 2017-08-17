@@ -49,5 +49,9 @@ List of folders with the blogpost and the live example:
 * 012-nuxtjs-ssr:
   * https://www.groloop.com/vue-js-2-12-aplicaciones-vue-js-universales-con-nuxt-js/
 
+* 013-nuxtjs-github-pages:
+  * https://www.groloop.com/vue-js-2-13-publicar-web-hecha-nuxt-js-github-pages/
+  * https://groloop.github.io/vuejs-2-series/
+
 
 Thanks to the [CodePen](https://codepen.io/) and [WebpackBin](https://www.webpackbin.com) team for making the live examples possible with their great platforms.
