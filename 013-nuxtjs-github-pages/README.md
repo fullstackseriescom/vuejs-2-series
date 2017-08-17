@@ -1,4 +1,4 @@
-# 012-nuxtjs-ssr
+# 013-nuxtjs-github-pages
 
 > Nuxt.js project
 
