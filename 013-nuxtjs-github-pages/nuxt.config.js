@@ -36,6 +36,6 @@ module.exports = {
     }
   },
   router: {
-    base: 'https://groloop.github.io/vuejs-2-series/'
+    base: '/vuejs-2-series/'
   }
 }
