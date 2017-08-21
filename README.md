@@ -53,5 +53,8 @@ List of folders with the blogpost and the live example:
   * https://www.groloop.com/vue-js-2-13-publicar-web-hecha-nuxt-js-github-pages/
   * https://groloop.github.io/vuejs-2-series/
 
+* 014-create-plugin-vuejs
+  * https://www.groloop.com/vue-js-2-14-crear-plugin/
+
 
 Thanks to the [CodePen](https://codepen.io/) and [WebpackBin](https://www.webpackbin.com) team for making the live examples possible with their great platforms.

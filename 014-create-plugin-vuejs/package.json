@@ -1,0 +1,14 @@
+{
+  "name": "vue-notyf",
+  "version": "1.0.0",
+  "description": "Vue.js plugin notyf",
+  "author": "Vreaxe <vreaxe@gmail.com>",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {},
+  "dependencies": {
+    "notyf": "^2.0.1",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {}
+}
