@@ -56,7 +56,7 @@ List of folders with the blogpost and the live example:
 * 014-create-plugin-vuejs
   * https://www.groloop.com/vue-js-2-14-crear-plugin/
 
-* laravel-vuejs-notes
+* 015-laravel-vuejs-notes
   * https://www.groloop.com/vue-js-2-15-aplicacion-laravel-5-vue-js-2-fin-la-serie/
   * https://github.com/groloop/laravel-vuejs-notes
 
