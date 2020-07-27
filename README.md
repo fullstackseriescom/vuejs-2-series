@@ -1,6 +1,6 @@
 # Vue.js 2 Series
 
-This repo contains the code from the Vue.js 2 series from [FullStack Series](https://fullstackseries.com/post_series/vue-js-2-frontend-javascript-framework/).
+This repo contains the code from the Vue.js 2 series from [Fullstack Series](https://fullstackseries.com/post_series/vue-js-2-frontend-javascript-framework/).
 
 This series is in **Spanish**.
 
